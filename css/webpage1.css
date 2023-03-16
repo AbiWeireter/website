@@ -21,11 +21,14 @@ body {
 }
 
 .btn {
-    background-color: var(--dgreen);
-    border: 0;
+    background-color: #ffffff;
+    border: 2;
     margin: 5px;
     padding: 8px 30px;
     font-size: 14px;
     border-radius: 6px;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
 }
