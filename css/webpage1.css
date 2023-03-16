@@ -3,6 +3,7 @@
 
 body {
     background-color: #C8A2c9;
+    
 }
 
 .container {
@@ -21,9 +22,5 @@ body {
 }
 
 .container.button {
-    width:60px;
-    height:60px;
-            background-color: #ffffff;
-            border-radius: 15%;
-            border:1px solid black;
+
 }
