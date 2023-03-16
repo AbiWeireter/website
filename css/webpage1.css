@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Signika+Negative&display=swap');
+
+
+body {
+    background-color: #C8A2c9;
+}
+
+.container {
+    font-family: 'Mukta', sans-serif;
+    color: #FFFFFF;
+    font-size: 60px;
+    display: flex;
+    height: 100vh;
+    align-items: top;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
