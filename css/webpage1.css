@@ -3,8 +3,18 @@
 
 body {
     background-color: #C8A2c9;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
 }
 
 .container {
     font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
 }
