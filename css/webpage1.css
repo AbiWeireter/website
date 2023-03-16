@@ -3,7 +3,6 @@
 
 body {
     background-color: #C8A2c9;
-    
 }
 
 .container {
@@ -21,6 +20,12 @@ body {
     overflow: hidden;
 }
 
-.container.button {
-
+.btn {
+    background-color: var(--dgreen);
+    border: 0;
+    margin: 5px;
+    padding: 8px 30px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
 }
