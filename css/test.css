@@ -1,6 +1,6 @@
 
-.box {
-    height: 50px;
-    width: 50px;
-    border: 1;
+.rectangle {
+    align-items: center;
+    justify-content; center
+    display: flex;
 }
