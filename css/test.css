@@ -1,6 +1,10 @@
 
-.rectangle {
-    align-items: center;
-    justify-content; center
+.circle {
+    background-color: #C1E1C1;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
