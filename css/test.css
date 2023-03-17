@@ -1,17 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Signika+Negative&display=swap');
 
-
-body {
-    background-color: #ffffff;
-    display: block;
-}
-
-
-.loading-text {
-    font-size: 50px;
-    text-align: center;
-    top: 150px;
-    padding: 50px;
-    border: 50px;
-
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1;
 }
