@@ -8,8 +8,6 @@ body {
 
 .loading-text {
     font-size: 50px;
-    align-items: center;
-    justify-content: absolute;
-    display: flex;
+    text-align: center;
 
 }
