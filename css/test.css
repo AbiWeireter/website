@@ -1,11 +1,12 @@
 
 .circle {
     background-color: #C1E1C1;
-    height: 80px;
+    height: 200px;
     width: fit;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
+    top: -60px;
 }
