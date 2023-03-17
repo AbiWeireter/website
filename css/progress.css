@@ -87,4 +87,5 @@ body {
 .btn:disabled {
     background-color: var(--lgreen);
     cursor: not-allowed;
+    font-color: #ffffff;
 }
