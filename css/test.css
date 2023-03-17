@@ -15,12 +15,12 @@ body {
 }
 
 .bg {
-    width: 100vw;
-    height: 100vh;
+    width: 50vw;
+    height: 50vh;
     background-image: url('https://images.ctfassets.net/mviowpldu823/3DjsfDKUSWQBfdWMEbecCQ/24f09c374ddb299ee332352fd69e4042/SES-Computer-Science-1900862161.jpg');
-    background-position: center;
     background-repeat: none;
     background-size: cover;
     position: absolute;
+    background-align: center;
 
 }
