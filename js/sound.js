@@ -9,7 +9,7 @@ sounds.forEach(sound => {
 
     btn.addEventListener('click', () => {
         stopSongs()
-        document.getElemetById(sound).play()
+        document.getElementById(sound).play()
     })
 
 
