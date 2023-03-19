@@ -18,7 +18,7 @@ body {
 }
 
 .image-top {
-    
+    justify-content: space-between;
 }
 
 .example {
