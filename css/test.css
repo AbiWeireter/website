@@ -17,9 +17,12 @@ body {
     margin: 0px;
 }
 
-.container.images {
-
+.progress-container {
+    display: flex;
     justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    width: 350px;
 }
 
 .example {
