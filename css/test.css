@@ -17,7 +17,8 @@ body {
     margin: 0px;
 }
 
-.image-top {
+.container.images {
+
     justify-content: space-between;
 }
 
