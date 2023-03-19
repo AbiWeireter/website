@@ -5,16 +5,7 @@ body {
     background-color: #ffffff;
 }
 
-.bg {
-    width: 100vw;
-    height: 100vh;
-    background-image: url('https://miro.medium.com/v2/resize:fit:870/0*ojIU84VO1XMGIn6_.jpg');
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    position: absolute;
-    z-index: -1;
-}
+
 
 .container {
     font-size: 25px;
@@ -38,7 +29,7 @@ body {
 }
 
 .example {
-    background-color: #aea3cd;
+    background-image: url('https://miro.medium.com/v2/resize:fit:870/0*ojIU84VO1XMGIn6_.jpg');
     padding: 10px 32px;
     margin: 20;
     font-size: 15px;
