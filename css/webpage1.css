@@ -5,6 +5,17 @@ body {
     background-color: #ffffff;
 }
 
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://wallpapers.com/images/featured/z7g866zr50wqtz0v.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
 .container {
     font-size: 25px;
     display: flex;
