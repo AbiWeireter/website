@@ -1,11 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Signika+Negative&display=swap');
 
-.circle {
-    background-color: #C1E1C1;
-    height: 200px;
-    width: fit;
-    border: 1px solid black;
+
+body {
+    background-color: #7393b3;
+}
+
+
+
+.container {
+    font-size: 25px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border: 50;
     margin: 0px;
 }
+
+.btn {
+    background-color: #ffffff;
+    border: 2;
+    margin: 5px;
+    padding: 8px 30px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: right;
+}
+
+.example {
+    background-image: url('https://miro.medium.com/v2/resize:fit:870/0*ojIU84VO1XMGIn6_.jpg');
+    padding: 10px 32px;
+    margin: 20;
+    font-size: 20px;
+    text-align: center;
