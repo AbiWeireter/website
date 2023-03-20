@@ -22,10 +22,12 @@ body {
     border: 2;
     margin: 5px;
     padding: 8px 30px;
-    font-size: 20px;
+    font-size: 50px;
     border-radius: 6px;
     cursor: pointer;
-    align-items: right;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .example {
