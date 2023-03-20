@@ -32,5 +32,15 @@ h3 {
 }
 
 .btn {
-    background-color: #9f
+    background-color: #9f68e0;
+    color: #ffffff;
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.98);
 }
