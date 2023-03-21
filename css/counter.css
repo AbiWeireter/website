@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Mono&family=Signika+Negative&display=swap');
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #8e04ad;
+    color: #ffffff;
+    display: flex;
+    height: 100vh;
+    
+}
