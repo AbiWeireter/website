@@ -12,18 +12,16 @@ body {
 
 .container {
     display: flex;
-    width: 90w;
+    width: 90vw;
 }
 
 .panel {
-    margin: 10px;
-    height: 80vh;
-    border-radius: 50px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
-    flex: 1;
+    height: 80vh;
+    margin: 10px;
+    
 }
 
 .panel h3 {
