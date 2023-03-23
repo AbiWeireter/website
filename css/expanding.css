@@ -26,6 +26,7 @@ body {
     cursor: pointer;
     flex: 1;
     position: relative;
+    transition: all 1s ease-in;
 }
 
 .panel h3 {
