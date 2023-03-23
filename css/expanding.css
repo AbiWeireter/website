@@ -21,14 +21,19 @@ body {
     background-repeat: no-repeat;
     height: 80vh;
     margin: 10px;
-    
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    position: relative;
 }
 
 .panel h3 {
     font-size: 24px;
-
+    position: absolute;
     bottom: 20px;
     left: 20px;
+    margin: 0;
 }
 
 .panel.active {
