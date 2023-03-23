@@ -1,0 +1,13 @@
+
+body {
+    margin: 0;
+}
+
+.heading {
+    background-color: #;
+    display: flex;
+    align-items: top;
+    justify-content: top;
+    height: 50px;
+    width: 100%
+  }
