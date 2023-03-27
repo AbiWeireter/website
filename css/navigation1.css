@@ -3,24 +3,27 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #333333;
+    background-color: #F6EA7BFF;
     color: #222222;
-    marign: 0;
+    margin: 0;
     overflow-x: hidden;
 }
+
 
 .container {
     background-color: #fafafa;
     width: 100vw;
     min-height: 100vh;
-    padding: 60px;
+    padding: 50px;
     transition: transform 1s linear;
-    tansform-origin: top left;
+    transform-origin: top left;
 }
+
 
 .container.show-nav {
     transform: rotate(-20deg);
 }
+
 
 .circle-container {
     position: fixed;
@@ -28,18 +31,20 @@ body {
     left: -100px;
 }
 
+
 .circle {
     height: 200px;
     width: 200px;
-    background-color: #ff7979;
+    background-color: #E683A9FF;
     border-radius: 50%;
     transition: transform 1s linear;
-    position: relative;
 }
+
 
 .container.show-nav .circle {
     transform: rotate(-70deg);
 }
+
 
 .circle button {
     cursor: pointer;
@@ -50,12 +55,16 @@ body {
     background: transparent;
     border: 0;
     font-size: 26px;
-    color: #ffffff
+    color: #ffffff;
+
+
 }
+
 
 .circle button#open {
     left: 60%;
 }
+
 
 .circle button#close {
     top: 60%;
@@ -63,16 +72,21 @@ body {
     transform-origin: top left;
 }
 
+
 .container.show-nav + nav li {
     transform: translateX(0);
     transition-delay: 0.5s;
 }
 
+
+
+
 nav {
-    position:  fixed;
+    position: fixed;
     bottom: 40px;
     left: 0;
 }
+
 
 nav ul {
     list-style-type: none;
@@ -82,28 +96,33 @@ nav ul {
 
 nav ul li {
     text-transform: uppercase;
-    color: #ffffff;
+    color: #FFBA52FF;
     margin:40px 0;
     transform: translateX(-100%);
-    transition: transform 1s ease in;
+    transition: transform 1s ease-in;
 }
+
 
 nav ul i {
     font-size: 20px;
     margin-right: 10px;
 }
 
+
 nav ul li + li {
-    margin-left: 50px;
-    trnasform: translateX(-150%)
+    margin-left: 0px;
+    transform: translateX(-150%);
 }
+
 
 nav ul li + li + li {
-    margin-left: 30px;
-    trnasform: translateX(-200%)
+    margin-left: 0px;
+    transform: translateX(-200%);
 }
 
+
 nav a {
-    color: #fafafa;
+    color: #FFBA52FF;
     text-decoration: none;
 }
+
