@@ -3,12 +3,13 @@
 
 body {
     background-color: #7393b3;
+    overflow: 0;
 }
 
 
 
 .container {
-    font-size: 25px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,12 +22,13 @@ body {
     border: 2;
     margin: 5px;
     padding: 8px 30px;
-    font-size: 50px;
+    font-size: 25px;
     border-radius: 6px;
     cursor: pointer;
     align-items: center;
     justify-content: space-between;
     display: flex;
+    overflow: 0;
 }
 
 .example {
