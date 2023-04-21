@@ -8,15 +8,6 @@ body {
 
 
 
-.container {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    border: 50;
-    margin: 0px;
-}
 
 .btn {
     border: 2;
